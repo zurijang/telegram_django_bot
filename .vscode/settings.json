@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "D:\\anaconda3\\envs\\django\\python.exe",
+    "python.formatting.provider": "black",
+}
+
