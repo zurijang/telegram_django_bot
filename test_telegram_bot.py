@@ -1,8 +1,8 @@
-import telegram   #텔레그램 모듈을 가져옵니다.
-import django.conf from settings
+import telegram
+from telegram_django_bot import settings
 
 bot = telegram.Bot(token=settings.TELEGRAM_TOKEN)
-bot.set_webhook('https://3c74a99fe5a8.ngrok.io/blog/webhook/')
+bot.set_webhook('https://9dad9fef93ae.ngrok.io/recommend/Service/')
 
 # for update in bot.getUpdates(): 
 #     print(update.message)
